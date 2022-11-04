@@ -56,7 +56,9 @@ header {
 }
 
 .nav-logo{
-    padding: 0 150px;
+    width: 30%;
+    max-width: 1200px;
+    padding: 15px;
     cursor: pointer;
 }
 
@@ -73,7 +75,7 @@ header {
 
 nav{
     display: flex;
-    padding: 0 150px;
+    padding: 0 15px;
     gap: 50px;
 }
 

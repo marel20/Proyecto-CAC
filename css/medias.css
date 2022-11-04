@@ -1,5 +1,5 @@
 /*----- Medias Queries -----*/
-@media (max-width:50rem){
+@media (max-width:1000px){
     .visible{
         display: none !important;
         visibility: hidden !important;
@@ -13,9 +13,6 @@
     .nav-toggle{
         display: block;
         margin-right: 30px;
-    }
-    .nav-logo{
-        padding: 0 !important;
     }
 
     nav{
