@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    color: #000000;
+}
+
+.visible{
+    display: flex !important;
+    visibility: visible !important;
+}
+
+.hidden{
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.btnWsp{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 1500 !important;
+}
+
+.up{
+    position: fixed;
+    line-height: 64px;
+    bottom: 100px;
+    right: 37px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.repair{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    margin: 130px auto 30px auto;
+}
+
+/* navbar style */
+header {
+    background: linear-gradient(to right, red, blue);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1500 !important;
+}
+
+.nav-logo{
+    padding: 0 150px;
+    cursor: pointer;
+}
+
+.container-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 0px auto;   
+    /* max-width: 1200px;
+    line-height: 80px; */
+    z-index: 1000;
+}
+
+nav{
+    display: flex;
+    padding: 0 150px;
+    gap: 50px;
+}
+
+.nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: red;
+    color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-button:hover{
+    background: blue;
+    color: red;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    z-index: 1000;
+}
+
+.nav-link a{
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+
+.nav-link a:hover{
+    color: #000000;
+}
+
+.nav-toggle{
+    color: #FFFFFF;
+    font-size: 30px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    transition: .3s;
+    display: none;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+/* navbar style */
+
+/* footer style */
+footer{
+    background: linear-gradient(to right, blue, red);
+}

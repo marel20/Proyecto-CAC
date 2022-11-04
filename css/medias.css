@@ -1,0 +1,45 @@
+/*----- Medias Queries -----*/
+@media (max-width:50rem){
+    .visible{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    
+    .hidden{
+        display: block !important;
+        visibility: visible !important;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-right: 30px;
+    }
+    .nav-logo{
+        padding: 0 !important;
+    }
+
+    nav{
+        position: absolute;
+        top: -100vh;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to right, red, blue);
+        text-align: center;
+        overflow: hidden;
+        height: calc(100vh - 100px);
+        width: 100%;
+        z-index: 1000 !important;
+        transition: .6s;
+        padding: 10px !important;
+    }
+
+    nav .nav-list{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .active{
+        top: 100px;
+    }
+
+}
