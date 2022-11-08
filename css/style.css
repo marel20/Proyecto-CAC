@@ -30,7 +30,7 @@
 .up{
     position: fixed;
     line-height: 64px;
-    bottom: 100px;
+    bottom: 110px;
     right: 37px;
     text-align: center;
     font-size: 30px;
@@ -109,7 +109,7 @@ nav{
 }
 
 .nav-link a:hover{
-    color: #000000;
+    color: red;
 }
 
 .nav-toggle{
@@ -127,7 +127,26 @@ nav{
 
 /* navbar style */
 
+/* contact style */
+/* .contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 15px;
+} */
+
 /* footer style */
 footer{
     background: linear-gradient(to right, blue, red);
+}
+
+.social-media a i{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.social-media a i:hover{
+    color: #000000;
 }
