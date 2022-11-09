@@ -17,3 +17,4 @@ toggle.addEventListener('click', () => {
     toggle.classList.toggle('rotate');
     links.classList.toggle('active');
 })
+

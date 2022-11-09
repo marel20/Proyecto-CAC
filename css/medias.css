@@ -43,6 +43,21 @@
         bottom: 80px !important;
     }
 
+    .institution{
+        flex-direction: column;
+        justify-content: center !important;
+        gap: 30px;
+    }
+    .text-institution{
+        width: 90%;
+        text-align: justify;
+    }
+    .iframe-fb{
+        display: flex;
+        width: 90%;
+        margin: 15px auto;
+    }
+
     /* .contact{
         flex-direction: column;
         padding: 30px;
