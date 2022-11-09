@@ -68,10 +68,12 @@ html, body, main{
     transform: translate(240px, 0);
     color: blue;
     background-color: red;
+    transition: ease-in-out .5s;
 }
 .store:hover i{
     color: blue;
     background-color: red;
+    transition: ease-in-out .5s;
 }
 
 .repair{
