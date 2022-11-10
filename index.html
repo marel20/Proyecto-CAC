@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0"
     />
-    <!-- <link rel="icon" href="assets/logo/logo2.png" type="logo" /> -->
+    <link rel="icon" href="assets/logo/logo.png" type="logo" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/medias.css" />
     <link rel="stylesheet" type="text/css" href="css/timeline.css" />
@@ -38,7 +38,7 @@
             <li class="nav-link"><a href="#discipline">Deportes</a></li>
             <li class="nav-link"><a href="#contact">Contacto</a></li>
           </ul>
-          <a class="nav-button" href="#!">Ingresar</a>
+          <a class="nav-button" href="pages/ingresar.html">Ingresar</a>
         </nav>
 
         <div class="nav-toggle">|||</div>
@@ -577,6 +577,46 @@
       <!-- Contact -->
 
       <section id="contact">
+        <form>
+          <div class="label">
+            <label for="name"><i class="fas fa-user-alt"></i></label>
+            <input type="text" id="name" name="name" placeholder="Nombre" required />
+          </div>
+
+          <div class="label">
+            <label
+              for="surname"
+            ><i class="fas fa-user-alt"></i></label>
+            <input type="text" id="surname" name="surname" placeholder="Apellido" required />
+          </div>
+
+          <div class="label">
+            <label
+              for="email"
+            ><i class="fas fa-envelope"></i></label>
+            <input type="email" id="email" name="email" placeholder="Email" required />
+          </div>
+
+          <div class="label">
+            <label
+              for="phone"
+            ><i class="fas fa-phone"></i></label>
+            <input type="number" id="phone" name="phone" placeholder="Teléfono" required />
+          </div>
+
+          <div>
+            <textarea
+              name="textarea"
+              id="textarea"
+              placeholder="Su mensaje"
+              required
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
         <article class="contact">
           <div class="sede">
             <iframe
