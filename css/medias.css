@@ -58,12 +58,15 @@
         margin: 15px auto;
     }
 
-    /* .contact{
+    .contact{
         flex-direction: column;
         padding: 30px;
     }
     .sede iframe, .complejo iframe{
         width: 100%;
         padding: 30px;
-    }*/
+    }
+    .address{
+        text-align: center;
+    }
 } 

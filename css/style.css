@@ -49,7 +49,7 @@ html, body, main{
 .store{
     position: fixed;
     line-height: 64px;
-    bottom: 100px;
+    bottom: 170px;
     left: -240px;
     background-color: blue;
     border-radius: 50px;
@@ -59,10 +59,12 @@ html, body, main{
     font-size: 25px;
     z-index: 100;
     cursor: pointer;
+    transition: all .5s;
 }
 .store i{
     color: red;
     margin-left: 70px;
+    transition: all .5s;
 }
 .store:hover{
     transform: translate(240px, 0);
@@ -74,6 +76,7 @@ html, body, main{
     color: blue;
     background-color: red;
     transition: ease-in-out .5s;
+    transform: rotate(360deg);
 }
 
 .repair{
@@ -211,7 +214,7 @@ section{
 }
 
 /* contact style */
-/* .contact{
+.contact{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -219,7 +222,40 @@ section{
     text-align: center;
     margin: 30px auto;
     padding: 15px;
-} */
+    border-radius: 10px;
+}
+
+.sede, .complejo{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0 auto;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 1px;
+    gap: 5px;
+    margin: 30px auto;
+}
+.address p i{
+    margin: 0 1.25rem;
+    font-size: 18px;
+}
+
+.address a{
+    color: #000000;
+}
+
+.sede iframe, .complejo iframe{
+    border-radius: 10px;
+    border: 2px solid #000000 !important;
+    padding: 3px;
+}
 
 /* footer style */
 footer{
@@ -232,4 +268,6 @@ footer{
 }
 .social-media a i:hover{
     color: #000000;
+    transition: all .5s;
+    transform: rotate(360deg) !important;
 }
