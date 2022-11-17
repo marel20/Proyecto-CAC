@@ -204,6 +204,7 @@ section{
 }
 
 /* discipline style */
+
 .discipline{
     display: flex;
     justify-content: space-evenly;
@@ -211,6 +212,46 @@ section{
     flex-wrap: wrap;
     gap: 10px;
     margin: 0 auto;
+}
+
+/* discipline info  */
+
+.modal_container{
+    display: none;
+    background-color: darkcyan;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    top: 12px;
+    left: 40px;
+    height: 95%;
+    width: 95%;
+    border-radius: 10px;
+    z-index: 1500;
+    overflow: auto;
+}
+.modal_text{
+    max-width: 90%;
+    max-height: 90%;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.modal_text h1{
+    margin: 50px auto;
+}
+.modal_text p{
+    width: 100%;
+    height: 90%;
+    margin: 50px auto;
+}
+
+.show{
+    transition: all .10s !important;
+    pointer-events: auto;
+    display: flex;
+    behavior: smooth !important;
 }
 
 /* contact style */
@@ -322,4 +363,3 @@ footer{
 .form{
     margin: 150px auto 100px auto;
 }
-

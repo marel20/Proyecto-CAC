@@ -69,4 +69,9 @@
     .address{
         text-align: center;
     }
+    .modal_container{
+        top: 15px;
+        left: 2.7%;
+        height: 90%;
+    }
 } 

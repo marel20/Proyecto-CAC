@@ -199,8 +199,8 @@
     --grey: hsl(0, 0%, 50%);
   
     width: 310px;
-    height: 500px;
-    margin: 40px;
+    height: 350px;
+    margin: 20px;
   
     perspective: 1000px;
   }
@@ -276,7 +276,7 @@
   }
   
   /* figcaption */
-  figcaption {
+  /* figcaption {
     display: block;
   
     width: auto;
@@ -295,7 +295,7 @@
   
     color: var(--white-1);
     background: hsla(var(--hue), 25%, 10%, .5);
-  }
+  } */
   
   /* .img-bg */
   .img-bg {
@@ -336,7 +336,7 @@
   
   
   /* button */
-  button {
+  .button-discipline {
     font-family: inherit;
     font-weight: bold;
     color: var(--white-1);
@@ -352,14 +352,14 @@
     cursor: pointer;
   }
   
-  button:hover,
-  button:focus {
+  .button-discipline:hover,
+  .button-discipline:focus {
     color: var(--primary);
     background: hsla(var(--hue), 25%, 10%, .2);
     border-color: currentColor;
   }
   
-  button:active {
+  .button-discipline:active {
     transform: translate(2px);
   }
   
