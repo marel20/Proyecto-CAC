@@ -217,21 +217,22 @@ section{
 /* discipline info  */
 
 .modal_container{
-    display: none;
+    display: flex;
     background-color: rgba(15, 15, 49, 0.966);
     align-items: center;
     justify-content: center;
     position: fixed;
     pointer-events: none;
-    top: 12px;
-    left: 40px;
+    /* top: 12px; */
+    left: 0px;
+    bottom: -100vh;
     height: 95%;
     width: 95%;
     border-radius: 10px;
     z-index: 1500;
     font-weight: bold;
     overflow: auto;
-    transition: ease-in-out .15s !important;
+    transition: all .5s !important;
 }
 .modal_text{
     max-width: 90%;
@@ -277,8 +278,9 @@ section{
 
 .show{
     pointer-events: auto;
-    transition: ease-in-out .15s !important;
-    display: flex;
+    transition: all .5s !important;
+    bottom: 0vh;
+    left: 40px;
 }
 
 /* contact style */
