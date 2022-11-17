@@ -15,6 +15,10 @@
         margin-right: 30px;
     }
 
+    header{
+        z-index: 1900 !important;
+    }
+
     nav{
         position: absolute;
         top: -100vh;
@@ -47,12 +51,13 @@
         flex-direction: column;
         justify-content: center !important;
         gap: 30px;
+        margin: 0 auto !important;
     }
     .text-institution{
         width: 90%;
         text-align: justify;
     }
-    .iframe-fb{
+    .iframe-fb-hidden{
         display: flex;
         width: 90%;
         margin: 15px auto;

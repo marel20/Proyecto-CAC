@@ -28,7 +28,7 @@ html, body, main{
     position: fixed;
     bottom: 40px;
     right: 25px;
-    z-index: 1500 !important;
+    z-index: 1800 !important;
 }
 
 .up{
@@ -38,7 +38,7 @@ html, body, main{
     right: 37px;
     text-align: center;
     font-size: 30px;
-    z-index: 100;
+    z-index: 1800;
 }
 
 /* body{
@@ -57,7 +57,7 @@ html, body, main{
     text-align: center;
     width: 300px;
     font-size: 25px;
-    z-index: 100;
+    z-index: 1800;
     cursor: pointer;
     transition: all .5s;
 }
@@ -218,7 +218,7 @@ section{
 
 .modal_container{
     display: none;
-    background-color: darkcyan;
+    background-color: rgba(15, 15, 49, 0.966);
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -229,29 +229,56 @@ section{
     width: 95%;
     border-radius: 10px;
     z-index: 1500;
+    font-weight: bold;
     overflow: auto;
+    transition: ease-in-out .15s !important;
 }
 .modal_text{
     max-width: 90%;
     max-height: 90%;
     padding: 40px;
     border-radius: 15px;
+    color: red;
     text-align: center;
 }
 .modal_text h1{
     margin: 50px auto;
+    color: red;
 }
 .modal_text p{
     width: 100%;
     height: 90%;
     margin: 50px auto;
+    color: red;
+}
+.button-close{
+    font-family: inherit;
+    font-weight: bold;
+    color: red;
+    letter-spacing: 2px;
+    padding: 9px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 1000px;
+    background: transparent;
+    transition: .3s;
+    cursor: pointer;
+}
+      
+.button-close:hover,
+.button-close:focus {
+    color: #FFFFFF;
+    background: hsla(var(--hue), 25%, 10%, .2);
+    border-color: currentColor;
+}
+      
+.button-close:active {
+    transform: translate(2px);
 }
 
 .show{
-    transition: all .10s !important;
     pointer-events: auto;
+    transition: ease-in-out .15s !important;
     display: flex;
-    behavior: smooth !important;
 }
 
 /* contact style */
