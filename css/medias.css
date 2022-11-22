@@ -75,8 +75,19 @@
         text-align: center;
     }
     .modal_container{
-        top: 15px;
         left: 2.7%;
         height: 90%;
+    }
+    .modal_text{
+        padding: 0 5px !important;
+    }
+    .modal_text h1{
+        margin: 20px auto !important;
+    }
+    .modal_text p{
+        margin: 30px auto !important;
+    }
+    .button-close{
+        margin: 10px auto
     }
 } 

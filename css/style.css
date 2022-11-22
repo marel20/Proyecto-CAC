@@ -214,7 +214,7 @@ section{
     margin: 0 auto;
 }
 
-/* discipline info  */
+/* discipline info style */
 
 .modal_container{
     display: flex;
@@ -223,18 +223,18 @@ section{
     justify-content: center;
     position: fixed;
     pointer-events: none;
-    /* top: 12px; */
     left: 0px;
     bottom: -100vh;
     height: 95%;
     width: 95%;
     border-radius: 10px;
-    z-index: 1500;
+    z-index: 1900;
     font-weight: bold;
     overflow: auto;
     transition: all .5s !important;
 }
 .modal_text{
+    width: 100%;
     max-width: 90%;
     max-height: 90%;
     padding: 40px;

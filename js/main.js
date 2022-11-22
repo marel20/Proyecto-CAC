@@ -21,7 +21,7 @@ toggle.addEventListener('click', () => {
 
 //pop-up
 
-const open = document.getElementById('open-card');
+const open = document.getElementById('open-card1');
 const modalContent = document.getElementById('containerModal');
 const close = document.getElementById('close-card');
 
