@@ -54,13 +54,9 @@
         margin: 0 auto !important;
     }
     .text-institution{
+        margin-top: 50px !important;
         width: 90%;
         text-align: justify;
-    }
-    .iframe-fb-hidden{
-        display: flex;
-        width: 90%;
-        margin: 15px auto;
     }
 
     .contact{
@@ -89,5 +85,15 @@
     }
     .button-close{
         margin: 10px auto
+    }
+
+    .spool{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .spool-item:nth-child(even), 
+    .spool-item:nth-child(odd){
+        grid-column: auto;
+        grid-row: auto;
     }
 } 
