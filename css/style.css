@@ -295,7 +295,19 @@ section{
     grid-template-columns: 400px 350px 200px 200px;
     grid-auto-rows: 1fr;
     gap: 15px;
-    height: 110vh;
+    height: 55vh;
+}
+
+.spool2{
+    width: 90%;
+    padding: 32px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    grid-template-columns:  200px 200px 350px 400px;
+    grid-auto-rows: 1fr;
+    gap: 15px;
+    height: 55vh;
 }
 
 .spool-item{
@@ -404,6 +416,7 @@ form button{
     background: red;
     color: blue;
     padding: 10px;
+    border: none !important;
     border-radius: 10px;
     margin: auto;
     cursor: pointer;

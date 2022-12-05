@@ -33,38 +33,38 @@ close.addEventListener('click', () => {
     modalContent.classList.remove('show');
 });
 
-// const open2 = document.getElementById('open-card2');
+ const open2 = document.getElementById('open-card2');
 
-// open2.addEventListener('click', () => {
-//     modalContent.classList.add('show');
-// });
+ open2.addEventListener('click', () => {
+     modalContent.classList.add('show');
+ });
 
-// const open3 = document.getElementById('open-card3');
+ const open3 = document.getElementById('open-card3');
 
-// open3.addEventListener('click', () => {
-//     modalContent.classList.add('show');
-// });
+ open3.addEventListener('click', () => {
+     modalContent.classList.add('show');
+ });
 
-// const open4 = document.getElementById('open-card4');
+ const open4 = document.getElementById('open-card4');
 
-// open4.addEventListener('click', () => {
-//     modalContent.classList.add('show');
-// });
+ open4.addEventListener('click', () => {
+     modalContent.classList.add('show');
+ });
 
-// const open5 = document.getElementById('open-card5');
+ const open5 = document.getElementById('open-card5');
 
-// open5.addEventListener('click', () => {
-//     modalContent.classList.add('show');
-// });
+ open5.addEventListener('click', () => {
+     modalContent.classList.add('show');
+ });
 
-// const open6 = document.getElementById('open-card6');
+ const open6 = document.getElementById('open-card6');
 
-// open6.addEventListener('click', () => {
-//     modalContent.classList.add('show');
-// });
+ open6.addEventListener('click', () => {
+     modalContent.classList.add('show');
+ });
 
-// const open = document.getElementById('open-card7');
+ const open = document.getElementById('open-card7');
 
-// open.addEventListener('click', () => {
-//     modalContent.classList.add('show');
-// });
+ open.addEventListener('click', () => {
+     modalContent.classList.add('show');
+ });
