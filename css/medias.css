@@ -17,6 +17,7 @@
 
     header{
         z-index: 1900 !important;
+        margin: 0 !important;
     }
 
     nav{
@@ -87,8 +88,9 @@
         margin: 10px auto
     }
 
-    .spool{
+    .spool, .spool2{
         grid-template-columns: repeat(2, 1fr);
+        padding: 15px !important;
     }
 
     .spool-item:nth-child(even), 
@@ -96,4 +98,65 @@
         grid-column: auto;
         grid-row: auto;
     }
+/* 
+    .backgroundDiv{
+        background-size: 100% 70vw !important;
+        background-position: 0% !important;
+        height: 150px;
+        margin-top: 0px !important;
+      } */
+      /* .search{
+        margin: 0 auto !important;
+      } */
+      .form section form{
+        width: 95% !important;
+      }
+      .searchPartner{
+        flex-direction: column;
+      }
+      .table{
+        border: 0;
+      }
+      .table thead{
+        display: none;
+      }
+      .table tr{
+        margin-bottom: 50px;
+        display: block;
+      }
+      .table th, .table td{
+        font-size: 14px !important;
+      }
+      .table td{
+        display: block;
+        text-align: right !important;
+      }
+      .table td:last-child {
+        border-bottom: 0px;
+      }
+      .table td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        float: left;
+      }
+      .text-admin{
+        margin: 130px auto !important;
+      }
+      .text-admin h2{
+        font-size: 30px !important;
+      }
+      .checks-asistencia{
+        width: 100% !important;
+      }
+      .items-form{
+        gap: 2px !important;
+      }
+      .btn-asistencia{
+        width: 50% !important;
+        margin-left: 60% !important;  
+      }
+      .btn-baja, .btn-pago{
+        width: 30% !important;
+        margin-left: 70% !important;
+      }
 } 

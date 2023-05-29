@@ -68,3 +68,4 @@ close.addEventListener('click', () => {
  open.addEventListener('click', () => {
      modalContent.classList.add('show');
  });
+ 
